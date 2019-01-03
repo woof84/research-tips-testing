@@ -17,8 +17,8 @@ title: WI+RE
 email: uclawire@ucla.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Quick and practical research and writing tutorials, collaboratively designed by students at UCLA.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/research-tips-testing" # the subpath of your site, e.g. /blog
+url: "https://dmcwo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
