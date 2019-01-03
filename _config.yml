@@ -22,6 +22,16 @@ url: "https://dmcwo.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Collections
+collections:
+    workshops:
+        output: true
+        permalink: /workshops/:path/
+    tutorials:
+        output: true
+        permalink: /tutorials/:path/
+    
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-clean-blog

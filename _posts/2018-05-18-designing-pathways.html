@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Designing learner pathways"
+date: 2018-05-18 01:01:01 +0000
+image: /assets/images/blur-close-up-design-196645.jpg
+author: The WI+RE team 
+---
+<p>One of the most common design challenges we face is providing learners with a set of pathways for learning that include a quick overview of a set of possibile next steps, and then the option to dig deeper and learn more about specific topics.</p>
+<p>The <a href="https://materializecss.com/" target="_blank">materialize css framework</a> gives us a few options to explore - and we often find ourselves trying to compare and gather feedback on which of these options to choose in different scenarios.</p>
+<p>Let's look at an example from our current reading strategies project. How can we provide learners with quick overview of a bunch of reading strategies, and then allow them to dive in and learn more about each strategy? Also for this project, we're thinking about how to present both text and media together for each strategy.</p>
+<h3>Cards with Reveals</h3>
+<h4>Card Reveal - 1</h4>
+<p>Here's a start, using the "card" componenent in materialize and the reveal feature, which allows you to click the card to reveal additional content (kind of like flipping over a 3x5 card). This approach gets the key elements on the page, and allows the user to click the card to see the video. The main challenge here is that it is not entirely obvious that you need to click the card to reveal the video. Another challenge is that the tip description gets lost when you're watching the video.</p>
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" style="max-height: 300px;" src="{{site.baseurl}}/assets/images/paraphrase-title.png"> </div>
+    <div class="card-content activator"> <span class="card-title activator grey-text text-darken-4">Paraphrase as you read<i class="material-icons right">more_vert</i></span>
+        <p class="activator">Summarizing content in your own words ensures that you have understood the text and helps you remember what you’ve read.</p>
+        <ul class="browser-default activator">
+            <li>Whenever you encounter an important concept, paraphrase it in your notes or outline.</li>
+            <li>Avoid summarizing using the exact words in the text, taking notes verbatim is not nearly as effective as writing in your own words.</li>
+            <li>A few words or a sentence will suffice for each summary.</li>
+        </ul>
+    </div>
+    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Paraphrase as you read<i class="material-icons right">close</i></span> <img class="tooltipped" data-position="left" data-tooltip="Placeholder for embedded video" style="max-height: 100%;" alt="Video player embed wireframe" src="{{site.baseurl}}/assets/images/np_video_1709497_808080.png"> </div>
+</div>
+<strong>Code:</strong>
+<script src="https://gist.github.com/dmcwo/1ec85d0d6f87b4b8a1168ec1a4fec2bd.js"></script>
+
+<h4>Card Reveal 2</h4>
+<p>Here's the same idea again, this time replacing <i class="material-icons">more_vert</i> with a more prominent button. Better, in that the video is easier to find, but we face the same challenge with the tip text getting lost while watching the video.</p>
+<div class="card">
+    <div class="card-image waves-effect waves-block waves-light"> <img class="activator" style="max-height: 300px;" src="{{site.baseurl}}/assets/images/paraphrase-title.png"> </div>
+    <div class="card-content activator"> <span class="card-title activator grey-text text-darken-4">Paraphrase as you read<a class="waves-effect waves-light btn blue right activator"><i class="material-icons left">videocam</i>video</a></span>
+        <p class="activator">Summarizing content in your own words ensures that you have understood the text and helps you remember what you’ve read.</p>
+        <ul class="browser-default activator">
+            <li>Whenever you encounter an important concept, paraphrase it in your notes or outline.</li>
+            <li>Avoid summarizing using the exact words in the text, taking notes verbatim is not nearly as effective as writing in your own words.</li>
+            <li>A few words or a sentence will suffice for each summary.</li>
+        </ul>
+    </div>
+    <div class="card-reveal"> <span class="card-title grey-text text-darken-4">Paraphrase as you read<i class="material-icons right">close</i></span> <img class="tooltipped" data-position="left" data-tooltip="Placeholder for embedded video" style="max-height: 100%;" alt="Video player embed wireframe" src="{{site.baseurl}}/assets/images/np_video_1709497_808080.png"> </div>
+</div>
+<strong>Code:</strong>
+<script src="https://gist.github.com/dmcwo/3090b1c1e6e3c5917c6719c0e7551c41.js"></script>
+<h3>Custom Card with Grid</h3>
+<p>Another approach is to try to do all the work on the card, without the reveal. The default card layouts in materialize make this challenging, so here we're creating our own card layout using the materialize responsive grid to place items inside the card.</p>
+<div class="card">
+    <div class="card-content">
+<div class="row">
+    <div class="col s12 m6">
+        <h4>Paraphrase as you read</h4>
+        <p>Summarizing content in your own words ensures that you have understood the text and helps you remember what you’ve read.</p>
+        <ul class="browser-default activator">
+            <li>Whenever you encounter an important concept, paraphrase it in your notes or outline.</li>
+            <li>Avoid summarizing using the exact words in the text, taking notes verbatim is not nearly as effective as writing in your own words.</li>
+            <li>A few words or a sentence will suffice for each summary.</li>
+        </ul>
+    </div>
+    <div class="col s12 m6"><img class="tooltipped responsive-img" data-position="left" data-tooltip="Placeholder for embedded video" alt="Video player embed wireframe" src="{{site.baseurl}}/assets/images/np_video_1709497_808080.png"></div>
+</div>
+</div>
+</div>
+<strong>Code:</strong>
+<script src="https://gist.github.com/dmcwo/980e5c860e609a279ba6e1ead2b9235d.js"></script>
+<p>What do you think? Which is your favorite?</p>
