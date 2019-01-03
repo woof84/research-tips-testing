@@ -6,6 +6,36 @@
     text-decoration: none;
 }
 
+/* Page Header Banner Thing */
+
+.page-heading {
+    background-color: #1E4B87;
+    opacity: 1;
+    height: 40%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: .3rem;
+}
+
+header.masthead .overlay {
+    opacity: 0;
+}
+
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+/* Colors */
+
+.btn-primary {
+    background-color: #1E4B87;
+    border-color: #1E4B87;
+}
 
 /* CUSTOMIZE THE CAROUSEL - not using this
 -------------------------------------------------- */
