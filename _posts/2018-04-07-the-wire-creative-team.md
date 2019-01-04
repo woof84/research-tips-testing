@@ -2,7 +2,7 @@
 layout: post
 title:  "Introducing the Creative Team"
 date:   2018-04-07 21:15:05 +0000
-image: /assets/images/art-creative-flying-17679.jpg
+background: /assets/images/art-creative-flying-17679.jpg
 author: Doug, Jen, Kian, Shannon, Taylor, Jeannie, Sophia
 ---
 Ready for your next challenge? Add your profile to this post! Use the same process of forking the site, marking your changes, testing out your changes on your own version of the site, and then making a pull request.

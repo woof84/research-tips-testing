@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to the sandbox!"
 date:   2018-04-08 21:15:05 +0000
-image: /assets/images/art-close-up-comic-16516.jpg
+background: /assets/images/art-close-up-comic-16516.jpg
 author: Doug, Jen, Juan, Kian, Shannon, Taylor, Jeannie, April, Sophia
 ---
 Hi there! Welcome to the WI+RE sandbox! This is our place to play around and experiment with web publishing. We can explore all kinds of things here - coding, editing, html, css, ruby, web animations - you name it!

@@ -21,16 +21,39 @@ baseurl: "/research-tips-testing" # the subpath of your site, e.g. /blog
 url: "https://dmcwo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /:collection/:title/
 
 # Collections
 collections:
+    posts:
+        output: true
+        permalink: /sandbox/:title/
     workshops:
         output: true
-        permalink: /workshops/:path/
+        permalink: /workshops/:title/
     tutorials:
         output: true
-        permalink: /tutorials/:path/
+        permalink: /tutorials/:title/
     
+# Defaults
+author: "The WI+RE Team" # a default to place when author field is not specified
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts" # a collection in your site, in plural form
+    values:
+      layout: "post"
+      background: "/assets/images/sand.jpg"
+  -
+    scope:
+        path: ""
+        type: "tutorials"
+    values:
+        layout: "post" # change to tutorials if needed
+        background: "" # set this up if needed
+        
+      
 
 # Build settings
 markdown: kramdown

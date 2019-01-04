@@ -2,7 +2,7 @@
 layout: post
 title: "H5P Cornerstone Prototypes"
 date: 2018-10-23 01:01:01 +0000
-image: /assets/images/blur-close-up-design-196645.jpg
+background: /assets/images/blur-close-up-design-196645.jpg
 author: The WI+RE team 
 ---
 ### Cornerstone H5P Prototypes

@@ -1,0 +1,77 @@
+---
+layout: page
+title: Tutorials and Videos
+description: Description here
+permalink: /tutorials/
+background: ''
+---
+<span class="badge badge-info text-wrap">Ideas: table of contents, better action links for each tutorial, no underline on hover over links, how to link image thumbnails ...?</span>
+
+{% assign groups = site.tutorials | group_by: "category" | sort: "date" %}
+
+{% for group in groups %}
+    <div class="card mt-5">
+        <div class="card-header pt-4">
+            <h2>{{ group.name }}</h2>
+        </div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            {% for tutorial in group.items %}
+                <li class="media mt-2">
+                    <!--this would be better if it were linked, but placing an <a> here wrecks the margins - not sure why -->
+                        {% if tutorial.thumbnail %}
+                            <img src="{{ tutorial.thumbnail | absolute_url }}" class="mr-3 img-fluid" style="max-width: 20%;" alt="Tutorial icon">
+                        {% else %}
+                            <img src="{{ '/assets/images/icons/tutorial-tn.png' | absolute_url }}" class="mr-3 img-fluid" style="max-width: 20%;" alt="Tutorial icon">
+                        {% endif %}
+                    <div class="media-body">
+                        <a href="{{ tutorial.url | absolute_url | replace: '//', '/' }}">
+                            <h3 class="mt-0 mb-1">{{ tutorial.title }}</h3>
+                            <p class="post-subtitle text-justify">
+                                {% if tutorial.description %}
+                                    {{ tutorial.description }}
+                                {% else %}
+                                    {{ tutorial.excerpt | strip_html | truncatewords: 30 }}
+                                {% endif %}
+                            </p>
+                        </a>
+                        <p class="post-meta text-muted">Created by
+                            {% if tutorial.author %}
+                                {{ tutorial.author }}.
+                            {% else %}
+                                {{ site.author }}.
+                            {% endif %}
+                            <!--on {{ tutorial.date | date: '%B %d, %Y' }}-->
+                        </p>
+                        <div class="btn-group btn-group-sm float-right" role="group" aria-label="Actions">
+                            <a href="{{ tutorial.url | absolute_url | replace: '//', '/' }}" class="btn btn-primary">Tutorial</a>
+                            <a href="#" class="btn btn-primary">Handout</a>
+                            <a href="#" class="btn btn-primary">Link</a>
+                        </div>
+                    </div>
+                </li>
+                <hr>
+            {%endfor%}
+            </ul>
+        </div>
+    </div>
+{%endfor%}
+
+<hr>
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+  <div class="clearfix">
+
+    {% if paginator.previous_page %}
+      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer<span class="d-none d-md-inline"> Posts</span></a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+    {% endif %}
+
+  </div>
+
+{% endif %}

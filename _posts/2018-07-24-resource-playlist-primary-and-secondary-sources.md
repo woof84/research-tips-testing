@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Resource playlist: primary and secondary sources"
+title: "Playlist: primary and secondary sources"
 date: 2018-07-24 01:01:01 +0000
-image: /assets/images/choice-colors-colours-5933.jpg
+2background: /assets/images/choice-colors-colours-5933.jpg
 author: The WI+RE team 
 ---
 
