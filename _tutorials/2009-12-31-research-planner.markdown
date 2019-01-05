@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Research Paper Planner"
 date:   2009-12-31
 description: Break down your assigment and stay on top of deadlines with this useful planner! 

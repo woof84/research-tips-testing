@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Reading for Writing"
 date:   2010-01-14
 description: Want to improve your academic writing? Complete this interactive activity to take your writing to the next level.

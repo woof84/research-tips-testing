@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Creating Literature Reviews"
 date:   2010-01-10
 description: Demystify the ever mysterious literature review! 

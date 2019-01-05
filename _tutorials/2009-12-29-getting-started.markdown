@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Getting Started with Research at UCLA"
 date:   2010-01-10
 description: Getting Started with research at UCLA! 

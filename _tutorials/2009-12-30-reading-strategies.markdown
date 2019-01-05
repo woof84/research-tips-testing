@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Reading Strategies"
 date:   2018-04-07 21:15:05 +0000
 description: 

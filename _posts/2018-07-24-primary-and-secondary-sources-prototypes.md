@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Primary and secondary sources prototypes"
 date: 2018-07-24 01:01:01 +0000
 background: /assets/images/choice-colors-colours-5933.jpg

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Introducing the Creative Team"
 date:   2018-04-07 21:15:05 +0000
 background: /assets/images/art-creative-flying-17679.jpg

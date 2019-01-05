@@ -48,6 +48,13 @@ defaults:
   -
     scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      background: "/assets/images/backgrounds/jans-steps-background.jpg"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
@@ -57,29 +64,29 @@ defaults:
         path: ""
         type: "workshops"
     values:
-        layout: "post" # change to tutorials if needed
-        background: "" # set this up if needed
+        layout: "workshop" # change to tutorials if needed
+        background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "tutorials"
     values:
-        layout: "post" # change to tutorials if needed
-        background: "" # set this up if needed
+        layout: "tutorial" # change to tutorials if needed
+        background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "handouts"
     values:
-        layout: "post" # change to tutorials if needed
-        background: "" # set this up if needed
+        layout: "handout" # change to tutorials if needed
+        background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "team-members"
     values:
-        layout: "post" # change to tutorials if needed
-        background: "" # set this up if needed
+        layout: "team-member" # change to tutorials if needed
+        background: "/assets/images/backgrounds/jans-steps-background.jpg"
 
 # Build settings
 markdown: kramdown

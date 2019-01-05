@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Reading for writing style"
 date:   2010-01-12
 description: Learn how to read a paper in your field to get a better idea for how to write your research paper.  

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Welcome to the sandbox!"
 date:   2018-04-08 21:15:05 +0000
 background: /assets/images/art-close-up-comic-16516.jpg

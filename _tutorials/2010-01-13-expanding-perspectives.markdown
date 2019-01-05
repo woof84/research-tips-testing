@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Expanding Perspectives in Your Search"
 date:   2010-01-10
 description: Move past your initial search to expand your perspectives and refine your research question. 

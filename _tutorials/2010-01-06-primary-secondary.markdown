@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Primary and Secondary Sources"
 date:   2010-01-06
 description: How to tell the difference between primary and secondary sources.

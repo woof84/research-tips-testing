@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Playlist: primary and secondary sources"
 date: 2018-07-24 01:01:01 +0000
 2background: /assets/images/choice-colors-colours-5933.jpg

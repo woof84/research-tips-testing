@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Post Title"
 subtitle: "This is the post subtitle."
 author: 
@@ -7,7 +6,7 @@ author:
     - TitleTesting
     - Doug
 date:   2018-11-29 21:16:07 -0800
-background: '/assets/images/backgrounds/jans-steps-background.jpg'
+background: 
 categories: jekyll update
 ---
 ### list all

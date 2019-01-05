@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Research Abstracts"
 date:   2010-01-09
 description: A research abstract is a snapshot of your research project that concisely presents your research and its significance.

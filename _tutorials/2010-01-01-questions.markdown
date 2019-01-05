@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Start with your Questions"
 date:   2010-01-01
 description: Before you search, start by brainstorming a list of questions.
