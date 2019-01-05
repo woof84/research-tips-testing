@@ -5,7 +5,7 @@ description: Description here
 permalink: /tutorials/
 background: ''
 ---
-<span class="badge badge-info text-wrap">Ideas: table of contents, better action links for each tutorial, no underline on hover over links, how to link image thumbnails ...?</span>
+<div class="notes">Ideas: table of contents, better action links for each tutorial, no underline on hover over links, how to link image thumbnails ...?</div>
 
 {% assign groups = site.tutorials | group_by: "category" | sort: "date" %}
 
@@ -25,7 +25,7 @@ background: ''
                             <img src="{{ '/assets/images/icons/tutorial-tn.png' | absolute_url }}" class="mr-3 img-fluid" style="max-width: 20%;" alt="Tutorial icon">
                         {% endif %}
                     <div class="media-body">
-                        <a href="{{ tutorial.url | absolute_url | replace: '//', '/' }}">
+                        <a href="{{ tutorial.url | relative_url | replace: '//', '/' }}">
                             <h3 class="mt-0 mb-1">{{ tutorial.title }}</h3>
                             <p class="post-subtitle text-justify">
                                 {% if tutorial.description %}
@@ -44,7 +44,7 @@ background: ''
                             <!--on {{ tutorial.date | date: '%B %d, %Y' }}-->
                         </p>
                         <div class="btn-group btn-group-sm float-right" role="group" aria-label="Actions">
-                            <a href="{{ tutorial.url | absolute_url | replace: '//', '/' }}" class="btn btn-primary">Tutorial</a>
+                            <a href="{{ tutorial.url | relative_url | replace: '//', '/' }}" class="btn btn-primary">Tutorial</a>
                             <a href="#" class="btn btn-primary">Handout</a>
                             <a href="#" class="btn btn-primary">Link</a>
                         </div>
@@ -59,19 +59,4 @@ background: ''
 
 <hr>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-
-  <div class="clearfix">
-
-    {% if paginator.previous_page %}
-      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer<span class="d-none d-md-inline"> Posts</span></a>
-    {% endif %}
-
-    {% if paginator.next_page %}
-      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
-    {% endif %}
-
-  </div>
-
-{% endif %}
+{% include pager.html %}

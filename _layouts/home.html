@@ -33,50 +33,36 @@ layout: default
       <!-- ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing">
+    <div class="container marketing">
     <!-- Three columns -->
     <div class="row">
         <div class="col-lg-4">
-            <!-- these used to have class="rounded-circle" but it didn't work with icons. would potentially work with different images --><img src="{{ '/assets/images/icons/np_certificate_928715_1E4B88.png' | absolute_url }}" alt="Cornerstone Research Workshops Badge" class="w-50">
-            <h2>Workshops</h2>
+            <!-- these used to have class="rounded-circle" but it didn't work with icons. would potentially work with different images or icons w/ backgrounds -->
+            <a class="" href="{{ '/workshops' | relative_url }}">
+                <img src="{{ '/assets/images/icons/np_certificate_928715_1E4B88.png' | absolute_url }}" alt="Cornerstone Research Workshops Badge" class="w-50">
+                <h2>Workshops</h2>
+            </a>
             <p>Gain a solid foundation in academic research and writing and earn a certificate for each workshop you complete!</p>
-            <div class="d-none d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
-                <p><a class="btn btn-primary btn-block" href="{{ '/workshops' | relative_url }}" role="button">All Workshops &raquo;</a></p>
-            </div>
         </div>
         <!-- /.col-lg-4 -->
-        <div class="col-lg-4"> <img src="{{ '/assets/images/icons/np_wireframe_162980_1E4B88.png' | absolute_url }}" alt="Online tutorials" class="w-50">
-            <h2>Tutorials</h2>
-            <p>Get right to it with tutorials on <a href="#">planning your project</a>, <a href="#">finding and citing sources</a>, <a href="#">writing literature reviews</a> and <a href="#">more</a>.</p>
-            <div class="d-none d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
-                <p><a class="btn btn-primary btn-block" href="{{ '/tutorials' | relative_url }}" role="button">All Tutorials &raquo;</a></p>
-            </div>
-        </div>
-        <!-- /.col-lg-4 -->
-        <div class="col-lg-4"> <img src="{{ '/assets/images/icons/np_report_1957810_1E4B88.png' | absolute_url }}" alt="Handouts and printable activities" class="w-50">
-            <h2>Handouts</h2>
+        <div class="col-lg-4">
+            <a href="{{ '/tutorials' | relative_url }}">
+                <img src="{{ '/assets/images/icons/np_wireframe_162980_1E4B88.png' | absolute_url }}" alt="Online tutorials" class="w-50">
+                <h2>Tutorials</h2>
+            </a>
+            <p>Get right to it with tutorials on <a href="{{ '/tutorials#getting-started' | relative_url }}">starting your research</a>, <a href="{{ '/tutorials#finding-and-citing-sources' | relative_url }}">finding and citing sources</a>, <a href="{{ '/tutorials#literature-reviews' | relative_url }}">writing literature reviews</a> and <a href="{{ '/tutorials' | relative_url }}">more</a>.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <a href="{{ '/handouts' | relative_url }}">
+                <img src="{{ '/assets/images/icons/np_report_1957810_1E4B88.png' | absolute_url }}" alt="Handouts and printable activities" class="w-50">
+                <h2>Handouts</h2>
+            </a>
             <p>Prefer to work on paper? No problem - we make printable handouts, too.</p>
-            <div class="d-none d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
-                <p><a class="btn btn-primary btn-block" href="#" role="button">All Handouts &raquo;</a></p>
-            </div>
-        </div>
-        <!-- /.col-lg-4 -->
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
     </div>
-    <!-- /.row -->
-    <div class="row">
-        <div class="col-lg-4 d-none d-lg-block d-xl-block">
-            <p><a class="btn btn-primary btn-block" href="{{ '/workshops' | relative_url }}" role="button">All Workshops &raquo;</a></p>
-        </div>
-        <div class="col-lg-4 d-none d-lg-block d-xl-block">
-            <p><a class="btn btn-primary btn-block" href="{{ '/tutorials' | relative_url }}" role="button">All Tutorials &raquo;</a></p>
-        </div>
-        <div class="col-lg-4 d-none d-lg-block d-xl-block">
-            <p><a class="btn btn-primary btn-block" href="#" role="button">All Handouts &raquo;</a></p>
-        </div>
-    </div>
-          </div><!-- /.row -->
 </div>
-      </div>
+</div>
           
           
         <!-- START THE FEATURETTES -->
@@ -148,8 +134,4 @@ layout: default
 
         {% endfor %}
 
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
-
+      </div>

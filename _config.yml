@@ -34,17 +34,31 @@ collections:
     tutorials:
         output: true
         permalink: /tutorials/:title/
+    handouts:
+        output: true
+        permalink: /handouts/:title/
+    team-members:
+        output: true
+        permalink: /about/creative-team/:title/
     
 # Defaults
 author: "The WI+RE Team" # a default to place when author field is not specified
+
 defaults:
   -
     scope:
       path: ""
-      type: "posts" # a collection in your site, in plural form
+      type: "posts"
     values:
       layout: "post"
       background: "/assets/images/sand.jpg"
+  -
+    scope:
+        path: ""
+        type: "workshops"
+    values:
+        layout: "post" # change to tutorials if needed
+        background: "" # set this up if needed
   -
     scope:
         path: ""
@@ -52,8 +66,20 @@ defaults:
     values:
         layout: "post" # change to tutorials if needed
         background: "" # set this up if needed
-        
-      
+  -
+    scope:
+        path: ""
+        type: "handouts"
+    values:
+        layout: "post" # change to tutorials if needed
+        background: "" # set this up if needed
+  -
+    scope:
+        path: ""
+        type: "team-members"
+    values:
+        layout: "post" # change to tutorials if needed
+        background: "" # set this up if needed
 
 # Build settings
 markdown: kramdown
