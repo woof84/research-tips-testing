@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% capture member-name-list %}{{ site.team-members | map: 'title' | split: ',' }}{% endcapture %}
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
@@ -12,11 +11,15 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-heading">
+          <!-- all the same between post and page before this point -->
+        <div class="post-heading"> <!-- configure this in custom css -->
           <h1>{{ page.title }}</h1>
           {% if page.subtitle %}
           <h2 class="subheading">{{ page.subtitle }}</h2>
           {% endif %}
+          <!-- this captures the list of team member names from site.team-members -->
+          {% capture member-name-list %}{{ site.team-members | map: 'title' | split: ',' }}{% endcapture %}
+          <!-- -->
           <span class="meta">Posted by
             {% if post.author %}
                 {% for authorname in post.author %}

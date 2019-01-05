@@ -46,6 +46,15 @@
     text-decoration: none;
 }
 
+/* Custom post header */
+header.masthead .post-heading {
+    padding: 75px 0 25px;
+    @media only screen and (min-width: 768px) {
+      padding: 75px 0;
+    }
+}
+
+
 /* Page Header Banner Thing */
 
 /* this was an attempt to reverse the overlay colors and text colors. didn't work
