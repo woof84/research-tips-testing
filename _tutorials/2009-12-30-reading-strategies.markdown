@@ -18,7 +18,7 @@ category: Getting Started
 
 <!-- Start Plan Your Reading Session -->
 <div class="card">
-    <iframe class="card-right" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
+    <iframe class="card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
             <div class="card-body">
                 <h4 class="card-title">Plan Your Reading Session</h4>
                 <p class="card-text">Planning your reading session can improve your reading efficiency by preventing distraction and burnout</p>
