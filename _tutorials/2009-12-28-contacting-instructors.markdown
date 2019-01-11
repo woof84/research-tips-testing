@@ -21,7 +21,7 @@ tags:
 <div class="row">
            
 <div class="col-sm">
-<a class="rightaction" href="{{ '/assets/handouts/contacting-faculty-combined.pdf' | prepend: site.baseurl }}" title="PDF Handout" aria-label="Handout">
+<a class="hover" href="{{ '/assets/handouts/contacting-faculty-combined.pdf' | prepend: site.baseurl }}" title="PDF Handout" aria-label="Handout">
 <img class="img-fluid materialboxed" src="{{ '/assets/images/contacting_faculty_over_email.png' | prepend: site.baseurl }}" alt="Contacting Instructors Over Email" data-caption="Contacting Instructors Over Email"> 
 </a>
 </div>
