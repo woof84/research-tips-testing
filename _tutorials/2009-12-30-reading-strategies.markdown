@@ -18,11 +18,11 @@ category: Getting Started
 
 <!-- Start Plan Your Reading Session -->
 <div class="card">
+    <div class="card-body">
+                <h4 class="card-title">Plan Your Reading Session</h4>
     <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
     </div>
-            <div class="card-body">
-                <h4 class="card-title">Plan Your Reading Session</h4>
                 <p class="card-text">Planning your reading session can improve your reading efficiency by preventing distraction and burnout</p>
                 <ul class="browser-default activator">
                     <li>Gauge the quantity of reading and the time you have to read it.</li>
