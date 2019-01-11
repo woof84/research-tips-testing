@@ -19,7 +19,7 @@ category: Getting Started
 <!-- Start Plan Your Reading Session -->
 <div class="card">
     <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
     </div>
             <div class="card-body">
                 <h4 class="card-title">Plan Your Reading Session</h4>
