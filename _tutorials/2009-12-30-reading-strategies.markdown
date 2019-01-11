@@ -19,7 +19,7 @@ category: Getting Started
 <!-- Start Plan Your Reading Session -->
 <div class="card">
     <div class="card-body">
-                <h5 class="card-title">Plan Your Reading Session</h5>
+                <h3 class="card-title">Plan Your Reading Session</h3>
     <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -37,7 +37,7 @@ category: Getting Started
 <!-- Turn Headings Into Questions -->
 <div class="card">
     <div class="card-body">
-                <h5 class="card-title">Turn Headings Into Questions</h5>
+                <h3 class="card-title">Turn Headings Into Questions</h3>
                 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/X-g8blCCqn0" frameborder="0" allowfullscreen></iframe>
         </div>
