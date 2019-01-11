@@ -11,8 +11,8 @@ tags:
 
 <p class="flow-text">Looking to get involved in research at UCLA? Meet five UCLA Undergraduate students as they explain their unique research journeys. Anyone can do research, and UCLA has the resources to help you get started today!</p>
 
-<div class="video-container">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2fIpRwxH30U" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/2fIpRwxH30U" frameborder="0" allowfullscreen></iframe></div>
 <!-- include embed-and-share-buttons.html ? -->
 
 
