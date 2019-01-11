@@ -28,7 +28,7 @@ tags:
 
 <div class="col-sm">
 <a class="rightaction" href="{{ '/assets/handouts/contacting-faculty-combined.pdf' | prepend: site.baseurl }}" title="PDF Handout" aria-label="Handout">
-<img class="responsive-img materialboxed" src="{{ '/assets/img/content/contacting-instructors-in-person.png' | prepend: site.baseurl }}" alt="Contacting Instructors In Person" data-caption="Contacting Instructors In Person"> 
+<img class="responsive-img materialboxed" src="{{ '/assets/images/contacting-instructors-in-person.png' | prepend: site.baseurl }}" alt="Contacting Instructors In Person" data-caption="Contacting Instructors In Person"> 
 </a>
 </div>
 
