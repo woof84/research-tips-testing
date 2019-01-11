@@ -19,7 +19,7 @@ category: Getting Started
 <!-- Start Plan Your Reading Session -->
 <div class="card">
     <div class="card-body">
-                <h4 class="card-title">Plan Your Reading Session</h4>
+                <h5 class="card-title">Plan Your Reading Session</h5>
     <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/9mvrn_YbGJw" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -35,23 +35,19 @@ category: Getting Started
 <!-- End Plan Your Reading Session-->
 
 <!-- Turn Headings Into Questions -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6" height="100%">
-                <!--add video embed code here--> <div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/X-g8blCCqn0" frameborder="0" allowfullscreen></iframe></div>
-            </div>
-            <div class="col s12 m12 l6 pull-l6">
-                <h4>Turn Headings Into Questions</h4>
-               <p>This strategy will ensure that you acquire relevant knowledge as you read a textbook or journal article.</p>
+<div class="card">
+    <div class="card-body">
+                <h5 class="card-title">Turn Headings Into Questions</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/X-g8blCCqn0" frameborder="0" allowfullscreen></iframe>
+        </div>
+               <p class="card-text">This strategy will ensure that you acquire relevant knowledge as you read a textbook or journal article.</p>
                 <ul class="browser-default activator">
                   <li>Restate section headings as questions. For example, a section heading titled, “Youth Social Media Use” could be turned into, “How do youth in different communities use social media? </li>
                 <li>As you read and take notes, keep your question in mind. Write down information that answers the question.</li>
                 <li>In the end, you should be able to summarize the answer to your question.</li>
                 <li>You may need to revise your question if the content doesn't match up.</li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Turn Headings Into Questions -->
