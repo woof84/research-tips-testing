@@ -53,22 +53,18 @@ category: Getting Started
 <!-- Turn Headings Into Questions -->
 
 <!-- Start Paraphrase as you read -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6">
-                <!--add video embed code here--><div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/6hbtedrMpzw" frameborder="0" allowfullscreen></iframe></div>
-            </div>
-            <div class="col s12 m12 l6 pull-l6">
-                <h4>Paraphrase as You Read</h4>
-                <p>Summarizing content in your own words ensures that you have understood the text and helps you remember what you’ve read.</p>
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Paraphrase as You Read</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/6hbtedrMpzw" frameborder="0" allowfullscreen></iframe>
+           </div>
+                <p class="card-text">Summarizing content in your own words ensures that you have understood the text and helps you remember what you’ve read.</p>
                 <ul class="browser-default activator">
                     <li>Whenever you encounter an important concept, paraphrase it in your notes or outline.</li>
                     <li>Avoid summarizing using the exact words in the text, taking notes verbatim is not nearly as effective as writing in your own words.</li>
                     <li>A few words or a sentence will suffice for each summary.</li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- End Paraphrase as you read -->
