@@ -70,63 +70,51 @@ category: Getting Started
 <!-- End Paraphrase as you read -->
  
  <!-- Start Take Relevant Notes -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6">
-                <!--add video embed code here--><div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/75KNersZRr0" frameborder="0" allowfullscreen></iframe></div>
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Take Relevant Notes</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/75KNersZRr0" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m12 l6 pull-l6">
-                <h4>Take Relevant Notes</h4>
-                <p>Taking notes that are tailored to your assignment will save you time and effort.</p>
+                <p class="card-text">Taking notes that are tailored to your assignment will save you time and effort.</p>
                 <ul class="browser-default activator"><li>Ask yourself, “How will I be asked to demonstrate my knowledge of the text?”</li>
                 <li>If the answer is a multiple-choice exam, make sure you’re keeping track of important terms and facts.</li>
                 <li>If the answer is an essay, look out for useful quotes or themes.</li>
                 <li>If you are expected to discuss the text in section, take down some of your questions and thoughts on the text.</li>
                 <li>Structure your notes so that you will be able to access the important information when the time comes to demonstrate your knowledge. </li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- End Take Relevant Notes-->
 
 <!-- Make an Annotation Legend -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6">
-                <!--add video embed code here--><div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yw-24wNozE8" frameborder="0" allowfullscreen></iframe></div>
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Make an Annotation Legend</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/Yw-24wNozE8" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m12 l6 pull-l6">
-                <h4>Make an Annotation Legend</h4>
-                <p>Creating a key of symbols for annotating can help you make meaningful annotations that you can reference in the future.</p>
+                <p class="card-text">Creating a key of symbols for annotating can help you make meaningful annotations that you can reference in the future.</p>
                  <ul class="browser-default activator"><li>For example, a star might denote a main idea. Or a square might denote a connection to another text.</li>
                 <li>Your key of symbols will vary from text to text, depending on what you are looking for!</li>
                 <li>Avoid just highlighting or underlining— instead, make annotations that demonstrate and advance your understanding of the text.</li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- End Make an Annotation Legend -->
 
 <!-- Read for What You Need-->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6">
-                <!--add video embed code here--><div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/RV67lo5hPi4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Vary Your Speed for What You Need</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/RV67lo5hPi4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m12 l6 pull-l6 grey lighten-5">
-                <h4>Vary Your Speed for What You Need</h4>
-                <p> Figuring out what information you need from a reading is an important first step! It can help you know when to speed up and when to slow down and dive deeper into the reading. </p>
+            <p class="card-text"> Figuring out what information you need from a reading is an important first step! It can help you know when to speed up and when to slow down and dive deeper into the reading. </p>
                  <ul class="browser-default activator"><li>Slow down your reading when you encounter unfamiliar ideas or new information that seems particularly relevant to your class or research context.</li>
                  <li>Increase speed when you encounter ideas that you are familiar with or that don’t pertain to your research context or class.</li>
                  <li>You can use key phrases to identify when to change your  speed. For example, if you already understand the concept, you can speed up when you see the phrase “for example.” But you might want to slow down when you see something like “Conversely” which indicates a shift or new perspective.</li>
                 </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Read for What You Need -->
@@ -154,22 +142,18 @@ category: Getting Started
 <!-- Prioritize New Vocabulary -->
 
 <!-- Identify Uncertainties -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6" height="100%">
-                <!--add video embed code here--><div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/NPgfgo_XY8s" frameborder="0" allowfullscreen></iframe></div>
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Identifying Uncertainties</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/NPgfgo_XY8s" frameborder="0" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m12 l6 pull-l6 grey lighten-5">
-                <h4>Identify Uncertainties</h4>
-               <p>Designate a symbol, highlighter color, or other marker that you can use to make note of bits of text that you don’t understand or want more clarification on.</p>
+            <p class="card-text">Designate a symbol, highlighter color, or other marker that you can use to make note of bits of text that you don’t understand or want more clarification on.</p>
                  <ul class="browser-default activator">
                     <li>Make note of what you don’t understand… Then try to move on! </li>
                     <li>Don’t get bogged down by uncertainties—this can hinder your ability to comprehend the text as a whole.</li>
                  <li>It’s possible your question gets answered later on in the text! But if not, consider visiting your professor or TA to resolve your questions that you cannot answer using the text.</li>
                  </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- include embed-and-share-buttons.html ? -->
