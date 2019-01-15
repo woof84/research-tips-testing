@@ -90,7 +90,8 @@ defaults:
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-clean-blog
+# theme: jekyll-theme-clean-blog
+# adapated from https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
 
