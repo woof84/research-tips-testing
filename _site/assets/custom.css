@@ -48,47 +48,66 @@
 
 /* Custom post header */
 header.masthead .post-heading {
-    padding: 75px 0 25px;
-    @media only screen and (min-width: 768px) {
-      padding: 75px 0;
-    }
+      padding: 125px 0 75px 0;
+}
+.post-heading-text-box {
+  padding-left: 1.25rem;
 }
 
-
-/* Page Header Banner Thing */
-
-/* this was an attempt to reverse the overlay colors and text colors. didn't work
-header.masthead .overlay {
-    opacity: .5;
-    background-color: #FFFFFF;
+/* Overlay text box on site header sections */
+.heading-text-box {
+  background-color: #005587;
+  border-radius: .3rem;
+  opacity: 0.8;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
-header.masthead .page-heading {
-    color: black;
-}
-*/
+/* Page Header */
 
-/* all of this kind of wrecked sub-pages */
-/*
-.page-heading {
-    background-color: #1E4B87;
-    opacity: 1;
-    height: 40%;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: .3rem;
+.masthead-text-box {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
-
-
-header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    
+@@ -13,8 +13,8 @@ header.masthead {
+    .subheading {
+              font-size: 20px;
+      font-weight: 500;
+      line-height: 1.3;
+    }   
 }
-*/
+
+@@ -44,6 +44,10 @@ header.masthead {
+       .subheading {
+        font-size: 24px;
+        padding: 0 .75rem;
+      }   
+}
+
+@@ -62,7 +66,7 @@ header.masthead {
+    .meta {
+        font-size: 16px;
+    }   
+}
+
+@@ -77,6 +81,9 @@ header.masthead {
+    .meta {
+        font-size: 20px;
+      }   
+}
+
+header.masthead .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; }
+
+header.masthead .page-heading .subheading, header.masthead .site-heading .subheading { font-size: 20px; font-weight: 500; line-height: 1.3; display: block; margin: 10px 0 0; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+@media only screen and (min-width: 768px) { header.masthead .page-heading h1, header.masthead .site-heading h1 { font-size: 80px; }
+  header.masthead .page-heading .subheading, header.masthead .site-heading .subheading { font-size: 24px; padding: 0 .75rem; } }
+
+header.masthead .post-heading .meta { font-size: 16px; font-weight: 300; font-style: italic; font-family: 'Lora', 'Times New Roman', serif; }
+
+  header.masthead .post-heading .subheading { font-size: 30px; }
+  header.masthead .post-heading .meta { font-size: 20px; } }
+
 
 
 /* Colors - changing to UCLA brand */
