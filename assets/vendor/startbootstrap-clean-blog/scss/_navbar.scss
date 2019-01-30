@@ -1,27 +1,35 @@
 // Styling for the navbar
 #mainNav {
-  position: absolute;
   border-bottom: 1px solid $gray-200;
   background-color: white;
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: $gray-800;
+    color: $ucla-darker-blue;
   }
   .navbar-toggler {
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: $gray-800;
+    color: $ucla-darker-blue;
+    outline: none;
+    &:hover {
+      color: fade-out($ucla-darker-blue, .4);
+    }
   }
   .navbar-nav {
     > li.nav-item {
       > a {
         font-size: 12px;
         font-weight: 800;
+        color: $ucla-darker-blue;
         letter-spacing: 1px;
         text-transform: uppercase;
+        &:focus,
+        &:hover {
+            color: fade-out($ucla-darker-blue, .4);
+        }
       }
     }
   }
@@ -30,20 +38,20 @@
     background: transparent;
     .navbar-brand {
       padding: 10px 20px;
-      color: $white;
+      color: $ucla-darker-blue;
       &:focus,
       &:hover {
-        color: fade-out($white, .2);
+        color: fade-out($ucla-darker-blue, .4);
       }
     }
     .navbar-nav {
       > li.nav-item {
         > a {
           padding: 10px 20px;
-          color: $white;
+          color: $ucla-darker-blue;
           &:focus,
           &:hover {
-            color: fade-out($white, .2);
+            color: fade-out($ucla-darker-blue, .4);
           }
         }
       }
