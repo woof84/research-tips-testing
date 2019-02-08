@@ -33,7 +33,7 @@ collections:
         permalink: /workshops/:title/
     tutorials:
         output: true
-        permalink: /tutorials/:title/
+        permalink: /:title/
     handouts:
         output: true
         permalink: /handouts/:title/

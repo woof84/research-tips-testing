@@ -5,6 +5,23 @@ description: handouts description
 permalink: /handouts/
 background: 
 ---
-<div class="notes">Coming soon: A list of handouts.</div>
+
+{% for handout in site.handouts %}
+    <p>{{ handout.title }}</p>
+    <p>{{ handout.date }}</p>
+    <p>{{ handout.description }}</p>
+    <p>{{ handout.handout-url }}</p>
+    <img src="{{ handout.thumbnail | absolute_url }}" alt="{{ handout.title }}: {{ handout.description }}" />
+    <p>
+        {% for tag in handout.tags %}
+            <ul>
+                <li>{{ tag }}</li>
+            </ul>
+        {% endfor %}
+    </p>
+{% endfor %}
+
+<div class="notes">under construction...?</div>
+
 
 {% include pager.html %}
