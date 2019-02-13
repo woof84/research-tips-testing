@@ -1,10 +1,12 @@
 ---
 title: "Post Title"
 subtitle: "This is the post subtitle."
-author: 
+authors: 
     - Lorem
     - TitleTesting
     - Doug
+contributors:
+    - 
 date:   2018-11-29 21:16:07 -0800
 background: 
 categories: jekyll update
