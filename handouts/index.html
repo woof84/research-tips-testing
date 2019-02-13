@@ -5,23 +5,24 @@ description: handouts description
 permalink: /handouts/
 background: 
 ---
-
-{% for handout in site.handouts %}
-    <p>{{ handout.title }}</p>
-    <p>{{ handout.date }}</p>
-    <p>{{ handout.description }}</p>
-    <p>{{ handout.handout-url }}</p>
-    <img src="{{ handout.thumbnail | absolute_url }}" alt="{{ handout.title }}: {{ handout.description }}" />
-    <p>
-        {% for tag in handout.tags %}
-            <ul>
-                <li>{{ tag }}</li>
-            </ul>
-        {% endfor %}
-    </p>
-{% endfor %}
-
 <div class="notes">under construction...?</div>
+
+<div class="container">
+  <div class="row">
+      {% for handout in site.handouts %}
+        <div class="col-md-6">
+            <div class="card">
+                <a href="{{ handout.handout-url  | absolute_url }}"><img src="{{ handout.thumbnail | absolute_url }}" class="card-img-top" alt="{{ handout.title }}: {{ handout.description }}"></a>
+              <div class="card-body">
+                  <a href="{{ handout.url | relative_url | replace: '//', '/' }}"><h5 class="card-title">{{ handout.title }}</h5></a>
+                <p class="card-text">{{ handout.description }}</p>
+                <a href="{{ handout.handout-url  | absolute_url }}" class="btn btn-primary">PDF</a>
+              </div>
+            </div>
+        </div>
+      {% endfor %}
+  </div>
+</div>
 
 
 {% include pager.html %}

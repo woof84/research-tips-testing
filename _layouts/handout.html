@@ -1,4 +1,22 @@
 ---
- # leave this here until a custom layout is created
+layout: post
 ---
+{{ content }}
 
+<div class="col-md-12">
+            <div class="card">
+                <a href="{{ page.handout-url  | absolute_url }}"><img src="{{ page.thumbnail | absolute_url }}" class="card-img-top" alt="{{ handout.title }}: {{ page.description }}"></a>
+              <div class="card-body">
+                  <h5 class="card-title">{{ page.title }}</h5>
+                <p class="card-text">{{ page.description }}</p>
+                <a href="{{ handout.handout-url  | absolute_url }}" class="btn btn-primary">PDF</a>
+              </div>
+            </div>
+</div>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb" style="font-size: .9rem;">
+    <li class="breadcrumb-item"><a href="{{"/" | relative_url }}">Home</a></li>
+    <li class="breadcrumb-item"><a href="{{ 'handouts/' | absolute_url }}">Handouts</a></li>
+    <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
