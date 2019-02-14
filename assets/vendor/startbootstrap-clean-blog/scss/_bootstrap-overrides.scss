@@ -10,14 +10,14 @@
 }
 
 .btn-primary {
-  background-color: $primary;
-  border-color: $primary;
+  background-color: $ucla-darker-blue;
+  border-color: $ucla-darker-blue;
   &:hover,
   &:focus,
   &:active {
     color: $white;
-    background-color: darken($primary, 7.5) !important;
-    border-color: darken($primary, 7.5) !important;
+    background-color: darken($ucla-darker-blue, 7.5) !important;
+    border-color: darken($ucla-darker-blue, 7.5) !important;
   }
 }
 
