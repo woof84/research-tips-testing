@@ -1,12 +1,9 @@
 ---
 layout: page
 title: Handouts
-description: handouts description
 permalink: /handouts/
 background: 
 ---
-<div class="notes">under construction...?</div>
-
 {% assign groups = site.handouts | group_by: "category" | sort: "date" %}
 
 {% for group in groups %}
@@ -18,14 +15,13 @@ background:
             <ul class="list-unstyled">
             {% for handout in group.items %}
                 <li class="media mt-2">
-                        <!-- next - drop the thumbnail on small -->
+                    <a href="{{ handout.handout-url | relative_url | replace: '//', '/' }}" class="mr-4 d-none d-md-block" style="max-width: 30%;">
                         {% if handout.thumbnail %}
-                            <a href="{{ handout.handout-url | relative_url | replace: '//', '/' }}" class="mr-4 d-none d-md-block" style="max-width: 30%;">
                             <img src="{{ handout.thumbnail | absolute_url }}" class="mr-3 img-fluid img-thumbnail d-none d-md-block" style="max-width: 100%;" alt="Handout icon">
-                            </a>
                         {% else %}
-                            <img src="{{ '/assets/images/icons/tutorial-tn.png' | absolute_url }}" class="mr-3 img-fluid" style="max-width: 30%;" alt="Tutorial icon">
+                            <i class="fas fa-file-pdf fa-5x" aria-label="Handout PDF"></i>
                         {% endif %}
+                    </a>
                     <div class="media-body">
                         <h3 class="mt-0 mb-1"><a href="{{ handout.url | relative_url | replace: '//', '/' }}">{{ handout.title }}</a></h3>
                             <p class="post-subtitle text-justify">

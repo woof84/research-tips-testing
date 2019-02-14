@@ -21,7 +21,7 @@ layout: default
           <!-- this captures the list of team member names from site.team-members -->
           {% capture member-name-list %}{{ site.team-members | map: 'title' | split: ',' }}{% endcapture %}
           <!-- -->
-          <span class="meta">Posted by
+          <span class="meta">Created by
             {% if page.authors %}
                 {% for authorname in page.authors %}
                     {% if member-name-list contains authorname %}
@@ -33,7 +33,7 @@ layout: default
             {% else %}
                 <a href="{{ '/about/creative-team/' | relative_url }}">{{ site.author }}</a>
             {% endif %}
-            on {{ page.date | date: '%B %d, %Y' }}</span>
+            <!--on {{ page.date | date: '%B %d, %Y' }}--></span>
             </div>
         </div>
       </div>
