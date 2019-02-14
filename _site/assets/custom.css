@@ -54,6 +54,11 @@ header.masthead .post-heading {
   padding-left: 1.25rem;
 }
 
+/* Keep menu visible over elements and right-aligned on scroll */
+.fixed-top {
+  position: static;
+}
+
 /* Overlay text box on site header sections */
 .heading-text-box {
   background-color: #005587;
@@ -113,10 +118,9 @@ header.masthead .post-heading .meta { font-size: 16px; font-weight: 300; font-st
 
 /* Colors - changing to UCLA brand */
 
-.btn-primary {
-    background-color: #1E4B87;
-    border-color: #1E4B87;
-}
+/* .btn-primary {
+  background-color: $ucla-darker-blue;
+} */
 
 /* CUSTOMIZE THE CAROUSEL - not using this
 -------------------------------------------------- */
