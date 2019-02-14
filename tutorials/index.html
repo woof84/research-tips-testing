@@ -35,14 +35,6 @@ background:
                                 {% endif %}
                             </p>
                         </a>
-                        <p class="post-meta text-muted">Created by
-                            {% if tutorial.author %}
-                                {{ tutorial.author }}.
-                            {% else %}
-                                {{ site.author }}.
-                            {% endif %}
-                            <!--on {{ tutorial.date | date: '%B %d, %Y' }}-->
-                        </p>
                         <div class="btn-group btn-group-sm float-right" role="group" aria-label="Actions">
                             <a href="{{ tutorial.url | relative_url | replace: '//', '/' }}" class="btn btn-primary">Tutorial</a>
                             <a href="#" class="btn btn-primary">Handout</a>

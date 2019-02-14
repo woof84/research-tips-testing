@@ -1,6 +1,11 @@
 ---
 title:  "Research Paper Planner"
 date:   2009-12-31
+authors:
+    - Shannon
+    - Taylor
+contributors:
+    - University of Minnesota Libraries Research Paper Calculator
 description: Break down your assigment and stay on top of deadlines with this useful planner! 
 handout: /assets/handouts/research-paper-planner-d2.pdf
 handout-thumbail: /assets/handouts/thumbnails/research-paper-planner-2-tn.png

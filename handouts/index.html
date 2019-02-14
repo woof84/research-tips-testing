@@ -7,22 +7,48 @@ background:
 ---
 <div class="notes">under construction...?</div>
 
-<div class="container">
-  <div class="row">
-      {% for handout in site.handouts %}
-        <div class="col-md-6">
-            <div class="card">
-                <a href="{{ handout.handout-url  | absolute_url }}"><img src="{{ handout.thumbnail | absolute_url }}" class="card-img-top" alt="{{ handout.title }}: {{ handout.description }}"></a>
-              <div class="card-body">
-                  <a href="{{ handout.url | relative_url | replace: '//', '/' }}"><h5 class="card-title">{{ handout.title }}</h5></a>
-                <p class="card-text">{{ handout.description }}</p>
-                <a href="{{ handout.handout-url  | absolute_url }}" class="btn btn-primary">PDF</a>
-              </div>
-            </div>
+{% assign groups = site.handouts | group_by: "category" | sort: "date" %}
+
+{% for group in groups %}
+    <div class="card mt-5">
+        <div class="card-header pt-4">
+            <h2>{{ group.name }}</h2>
         </div>
-      {% endfor %}
-  </div>
-</div>
+        <div class="card-body">
+            <ul class="list-unstyled">
+            {% for handout in group.items %}
+                <li class="media mt-2">
+                        <!-- next - drop the thumbnail on small -->
+                        {% if handout.thumbnail %}
+                            <a href="{{ handout.handout-url | relative_url | replace: '//', '/' }}" class="mr-4 d-none d-md-block" style="max-width: 30%;">
+                            <img src="{{ handout.thumbnail | absolute_url }}" class="mr-3 img-fluid img-thumbnail d-none d-md-block" style="max-width: 100%;" alt="Handout icon">
+                            </a>
+                        {% else %}
+                            <img src="{{ '/assets/images/icons/tutorial-tn.png' | absolute_url }}" class="mr-3 img-fluid" style="max-width: 30%;" alt="Tutorial icon">
+                        {% endif %}
+                    <div class="media-body">
+                        <h3 class="mt-0 mb-1"><a href="{{ handout.url | relative_url | replace: '//', '/' }}">{{ handout.title }}</a></h3>
+                            <p class="post-subtitle text-justify">
+                                {% if handout.description %}
+                                    {{ handout.description }}
+                                {% else %}
+                                    {{ handout.excerpt | strip_html | truncatewords: 30 }}
+                                {% endif %}
+                            </p>
+                        <div class="btn-group btn-group-sm float-right" role="group" aria-label="Actions">
+                            <a href="{{ handout.url | relative_url | replace: '//', '/' }}" class="btn btn-primary">More information</a>
+                            <a href="{{ handout.handout-url | relative_url | replace: '//', '/' }}" class="btn btn-primary">PDF</a>
+                        </div>
+                    </div>
+                </li>
+                <hr>
+            {%endfor%}
+            </ul>
+        </div>
+    </div>
+{%endfor%}
+
+<hr>
 
 
 {% include pager.html %}
