@@ -1,6 +1,22 @@
 ---
 title:  "Primary and Secondary Sources"
 date:   2010-01-06
+authors: 
+    - Kian
+    - Jen
+contributors: 
+    - Allison Benedetti
+    - Miki Goral
+    - Robert Gore
+    - Janine Henri
+    - Diana King
+    - Simon Lee
+    - Henri Lim
+    - Marisa Méndez-Brady
+    - Annie Pho
+    - Alicia Reiley
+    - Renee Romero
+    - Matthew Vest
 description: How to tell the difference between primary and secondary sources.
 category: Finding and Citing Sources
 tags:
