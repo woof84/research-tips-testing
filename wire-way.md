@@ -25,13 +25,13 @@ Sometimes the syllabus doesn’t say it all. We try to make hidden challenges ea
 We explore & implement DIY approaches to learning design and media making. We tinker, try new things, and explore. We use tools and try out processes we have never used before, and frequently make it up as we go.
 
 ### Pursue universal design at every stage of the process.
-Accessibility and usability are not a checkbox at the end of the project, but areas of continual importance that can always be improved.
+Accessibility and usability are not checkboxes at the end of a project, but areas of continual importance that can always be improved.
 
 ### Design multiple pathways for learning.
 Learning happens in many formats, from videos and animations to printable handouts and interactive exhibits. When we create something that seems to be helpful in one format, we try to adapt it to work in another.
 
 ### Speak with our own voices.
-We’re learners, not voice actors. We avoid “tutorial voice” and instead share our work in our own, varied voices.
+We’re learners, not voice actors. We avoid “tutorial voice” and instead share our work in our own varied voices.
 
 ### Celebrate our diverse communities.
 We choose positive, inclusive, and relevant examples that celebrate the diversity of our communities. 
@@ -40,4 +40,4 @@ We choose positive, inclusive, and relevant examples that celebrate the diversit
 We use a rich and growing toolkit of design tools to collaborate and partner with learners, researchers, librarians, and teachers throughout the creative process.
 
 ### Share our work and engage with the world
-Our work is open source and can be shared, re-used, and re-mixed. We are always interested in your feedback and ideas. In each of our projects we seek to make a difference for learners, research, and writers.
+Our work is open source and can be shared, re-used, and re-mixed. In each of our projects we seek to make a difference for learners, researchers, and writers.
