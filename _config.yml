@@ -86,7 +86,7 @@ defaults:
         type: "team-members"
     values:
         layout: "team-member" # change to tutorials if needed
-        background: "/assets/images/backgrounds/jans-steps-background.jpg"
+        background: "/assets/images/backgrounds/art-creative-flying-17679-3000.jpg"
 
 # Build settings
 markdown: kramdown

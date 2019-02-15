@@ -1,4 +1,113 @@
 ---
- # leave this here until a custom layout is created
+layout: default
 ---
-
+<!-- Page Header -->
+{% if page.background %}
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+{% else %}
+<header class="masthead">
+{% endif %}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+            <div class="post-heading-text-box heading-text-box text-center">
+                <img class="rounded mx-auto d-block" style="max-height: 200px;" src="{{ page.profile | relative_url }}" alt="{{ page.firstname }}'s profile picture" />
+                <h1>{{ page.title }}</h1>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            {{ content }}
+            <h2>{{ page.firstname }} <span class="text-muted">{{ page.lastname }}</span></h2>
+            <p class="lead">
+                {{ page.bio }}
+            </p>
+            <h3 class="mt-5">Featured Projects:</h3>
+                <!-- turn this into a slideshow? -->
+                {% if page.features %}
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <ol class="carousel-indicators">
+                            {% for feature in page.features %}
+                                <li data-target="#carouselExampleCaptions" data-slide-to="{{ forloop.index0 }}" {% if forloop.first == true %}class="active">{% endif %}</li>
+                            {% endfor %}
+                        </ol>
+                        <div class="carousel-inner">
+                          {% for feature in page.features %}
+                                <div class="carousel-item {% if forloop.first == true %}active{% endif %}">
+                                    <img src="{{ feature.feature-img | absolute_url }}" class="d-block w-100" style="object-fit: cover;" alt="{{ feature.feature-title }}">
+                                    <div class="carousel-caption" style="background: rgb(39, 116, 174, 0.9);">
+                                      <h5 class="text-white"><a href="{{ feature.feature-url | absolute_url }}" class="text-white">{{ feature.feature-title }}</a></h5>
+                                      <p>{{ feature.feature-note }}</p>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" style="color: #2774AE;" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                {% endif %}
+                <!-- Workshops -->
+                {% capture workshop-author-list %}{{ site.workshops | map: 'authors' | split: ',' }}{% endcapture %}
+                {% if workshop-author-list contains page.title %}
+                    <h3 class="mt-5">My Workshops</h3>
+                    <ul>
+                        {% for workshop in site.workshops %}
+                            {% if workshop.authors contains page.title %}
+                            <li><a href="{{ workshop.url | absolute_url}}">{{ workshop.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <!-- Tutorials -->
+                {% capture tutorial-author-list %}{{ site.tutorials | map: 'authors' | split: ',' }}{% endcapture %}
+                {% if tutorial-author-list contains page.title %}
+                    <h3 class="mt-5">My Tutorials</h3>
+                    <ul>
+                        {% for tutorial in site.tutorials %}
+                            {% if tutorial.authors contains page.title %}
+                            <li><a href="{{ tutorial.url | absolute_url}}">{{ tutorial.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <!-- Handouts -->
+                {% capture handout-author-list %}{{ site.handouts | map: 'authors' | split: ',' }}{% endcapture %}
+                {% if handout-author-list contains page.title %}
+                    <h3 class="mt-5">My Handouts</h3>
+                    <ul>
+                        {% for handout in site.handouts %}
+                            {% if handout.authors contains page.title %}
+                            <li><a href="{{ handout.url | absolute_url}}">{{ handout.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                <!-- Sandbox Posts -->
+                {% capture sandbox-author-list %}{{ site.posts | map: 'authors' | split: ',' }}{% endcapture %}
+                {% if sandbox-author-list contains page.title %}
+                    <h3 class="mt-5">My Sandbox Posts</h3>
+                    <ul>
+                        {% for post in site.posts %}
+                            {% if post.authors contains page.title %}
+                            <li><a href="{{ post.url | absolute_url}}">{{ post.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+        </div>
+    </div>
+</div>
+    

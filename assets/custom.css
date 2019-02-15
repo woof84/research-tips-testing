@@ -202,3 +202,15 @@ header.masthead .post-heading .meta { font-size: 16px; font-weight: 300; font-st
     margin-top: 7rem;
   }
 }
+
+
+/* Improving .lead
+-------------------------------------------------- */
+.lead {
+    border-color: #3284bf;
+    border-width: 3px;
+    border-style: solid;
+    margin: 16px;
+    padding: 24px;
+    font-family: 'Open Sans';
+}
