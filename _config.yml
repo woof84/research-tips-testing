@@ -64,28 +64,28 @@ defaults:
         path: ""
         type: "workshops"
     values:
-        layout: "workshop" # change to tutorials if needed
+        layout: "workshop" 
         background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "tutorials"
     values:
-        layout: "tutorial" # change to tutorials if needed
+        layout: "tutorial" 
         background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "handouts"
     values:
-        layout: "handout" # change to tutorials if needed
+        layout: "handout" 
         background: "/assets/images/backgrounds/jans-steps-background.jpg"
   -
     scope:
         path: ""
         type: "team-members"
     values:
-        layout: "team-member" # change to tutorials if needed
+        layout: "team-member" 
         background: "/assets/images/backgrounds/art-creative-flying-17679-3000.jpg"
 
 # Build settings
