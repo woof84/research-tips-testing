@@ -24,7 +24,20 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            {{ content }}
+            <!-- attempted breadcrumbs did not look nice -->
+            <!--
+            <p>
+                <small>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">About</a></li>
+                        <li class="breadcrumb-item"><a href="#">WI+RE Team</a></li>
+                      </ol>
+                    </nav>
+                </small>
+            </p>
+            -->
             <h2>{{ page.firstname }} <span class="text-muted">{{ page.lastname }}</span></h2>
             <p class="lead">
                 {{ page.bio }}
@@ -107,6 +120,8 @@ layout: default
                         {% endfor %}
                     </ul>
                 {% endif %}
+            <!-- page specific content -->
+             {{ content }}
         </div>
     </div>
 </div>
