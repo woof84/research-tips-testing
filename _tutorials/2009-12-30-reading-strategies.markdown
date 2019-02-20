@@ -124,7 +124,7 @@ category: Getting Started
     <div class="card-body">
                 <h3 class="card-title">Vary Your Speed for What You Need</h3>
                 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/RV67lo5hPi4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/LNFOxqgGwMI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
                 <p class="card-text">Dealing with unfamiliar words appropriately will aid your comprehension of the text and boost your vocabulary.</p>
                  <ul class="browser-default activator"><li>Differentiate between words to look up right now, words to look up later, and words that are not crucial to understanding the course material.</li>
