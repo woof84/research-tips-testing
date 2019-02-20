@@ -22,7 +22,7 @@ tags:
     </div>
 <!-- include embed-and-share-buttons.html ? -->
 
-<p>### Give it a try:</p>
+<h3Give it a try:</h3>
 
 <p class="flow-text"><a href="http://bit.ly/paper-planner" target="_blank">Open up the planner</a> and follow the instructions to make a copy into your Drive: <a href="http://bit.ly/paper-planner" target="_blank">http://bit.ly/paper-planner</a>.
 <p class="flow-text">Input the due date of one of your upcoming assignments and get started!</p>
