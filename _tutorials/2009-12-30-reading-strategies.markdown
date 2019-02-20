@@ -122,7 +122,7 @@ category: Getting Started
 <!-- Prioritize New Vocabulary -->
 <div class="card">
     <div class="card-body">
-                <h3 class="card-title">Vary Your Speed for What You Need</h3>
+                <h3 class="card-title">Prioritize New Vocabulary</h3>
                 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/LNFOxqgGwMI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
