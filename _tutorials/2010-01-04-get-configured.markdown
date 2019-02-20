@@ -1,6 +1,8 @@
 ---
 title:  "Get configured"
 date:   2010-01-04
+authors: 
+    - Scott Martin
 description: Configure your computer to access the library's many resources.
 handout: /assets/handouts/vpn.pdf
 handout-thumbail: /assets/handouts/thumbnails/vpn-tn.png
