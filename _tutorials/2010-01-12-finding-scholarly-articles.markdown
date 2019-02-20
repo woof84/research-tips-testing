@@ -1,6 +1,21 @@
 ---
 title:  "Finding Scholarly Articles"
 date:   2010-01-11
+authors: 
+    - Taylor
+    - Shannon
+contributors: 
+    - Whitney Arnold
+    - Joanna Chen Cham
+    - Julia Glassman
+    - Janet Goins
+    - Leigh Harris
+    - Kelley Kistner
+    - Simon Lee
+    - Nisha Moody
+    - Renee Romero
+    - Annelie Rugg
+    - Doug Worsham
 description: How to search for and access scholarly articles
 category: Finding and Citing Sources
 ---
