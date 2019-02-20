@@ -1,6 +1,20 @@
 ---
 title:  "Creating Literature Reviews"
 date:   2010-01-10
+authors: 
+    - Caitlin
+    - Taylor
+    - Shannon
+contributors:
+    - Whitney Arnold
+    - Joanna Chen Cham
+    - Janet Goins
+    - Leigh Harris
+    - Nisha Moody
+    - Renee Romero
+    - Annelie Rugg
+    - Mary Tran
+    - Doug Worsham
 description: Demystify the ever mysterious literature review! 
 category: Literature Reviews
 tags:
