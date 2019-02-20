@@ -1,6 +1,11 @@
 ---
 title:  "Reading Strategies"
 date:   2018-04-07 21:15:05 +0000
+authors: 
+    - The WI+RE Team
+contributors: 
+    - Doug Worsham
+    - UCLA Powell Library
 description: 
 handout:
 handout-thumbnail:
