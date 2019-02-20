@@ -1,6 +1,11 @@
 ---
 title:  "Start with your Questions"
 date:   2010-01-01
+authors: 
+    - Doug 
+    - Renee 
+contributors: 
+    - UCLA Powell Library
 description: Before you search, start by brainstorming a list of questions.
 handout: /assets/handouts/questions.pdf
 handout-thumbail: /assets/handouts/thumbnails/questions-tn.png
