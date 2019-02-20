@@ -1,6 +1,23 @@
 ---
 title:  "Expanding Perspectives in Your Search"
 date:   2010-01-10
+authors: 
+    - Shannon
+    - Taylor
+    - Kian
+    - Jeannie
+contributors:
+    - Whitney Arnold
+    - Joanna Chen Cham
+    - Julia Glassman
+    - Janet Goins
+    - Leigh Harris
+    - Kelly Kistner
+    - Simon Lee
+    - Nisha Moody
+    - Renee Romero
+    - Annelie Rugg
+    - Doug Worsham
 description: Move past your initial search to expand your perspectives and refine your research question. 
 category: Finding and Citing Sources
 tags:
