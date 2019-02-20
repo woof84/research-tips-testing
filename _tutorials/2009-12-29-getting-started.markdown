@@ -15,6 +15,7 @@ tags:
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2fIpRwxH30U" frameborder="0" allowfullscreen></iframe></div>
 <!-- include embed-and-share-buttons.html ? -->
 
+<br>
 
 <h3>Resources</h3>
 
