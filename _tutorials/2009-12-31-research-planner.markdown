@@ -15,11 +15,11 @@ tags:
 - time management
 ---
 
-<p class="intro">Tired of writing your paper the night before it's due? This Research Paper Planner will help you break down your assignment into manageable deadlines, track your progress, and connect with campus resources.</p>
+<p>Tired of writing your paper the night before it's due? This Research Paper Planner will help you break down your assignment into manageable deadlines, track your progress, and connect with campus resources.</p>
 
-<div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hhv8PIFHvek" frameborder="0" allowfullscreen></iframe>
-</div>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hhv8PIFHvek" frameborder="0" allowfullscreen></iframe>
+    </div>
 <!-- include embed-and-share-buttons.html ? -->
 
 ### Give it a try:
