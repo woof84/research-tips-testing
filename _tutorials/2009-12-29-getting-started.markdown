@@ -1,6 +1,27 @@
 ---
 title:  "Getting Started with Research at UCLA"
 date:   2010-01-10
+authors: 
+    - Taylor
+    - Shannon
+contributors:
+    - Tony Aptonte
+    - Whitney Arnold
+    - Joanna Chen Cham
+    - Elizabeth Cheney 
+    - Julia Glassman 
+    - Janet Goins
+    - Leigh Harris
+    - Courtney Hoffner
+    - Kelly Kistner
+    - Simon Lee
+    - Amy Liu 
+    - Caitlin Meyer
+    - Nisha Moody
+    - Renee Romero 
+    - Annelie Rugg
+    - Shushanik Stepanyan 
+    - Mary Tran 
 description: Getting Started with research at UCLA! 
 category: Getting Started
 tags:
