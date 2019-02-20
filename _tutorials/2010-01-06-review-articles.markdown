@@ -7,7 +7,7 @@ authors:
 contributors: 
     - Undergraduate Research Center: Sciences
     - Undergraduate Research Center: Humanities and Social Sciences
-    - Undergraduate Writing Programs
+    - Undergraduate Writing Center
 description: Review articles give you an efficient way to get an overview of a body of research on your topic.
 handout: /assets/handouts/introduction-to-articlesplus-fixed.pdf
 handout-thumbail: /assets/handouts/thumbnails/introduction-to-articlesplus-tn.png
