@@ -1,6 +1,17 @@
 ---
 title:  "Reading for Writing"
 date:   2010-01-14
+authors: 
+    - Kian
+    - Taylor
+    - Shannon
+contributors:
+    - Whitney Arnold
+    - Janet Goins
+    - Leigh Harris
+    - Nisha Moody
+    - Doug Worsham
+    - Undergraduate Writing Center
 description: Want to improve your academic writing? Complete this interactive activity to take your writing to the next level.
 category: Getting Started
 tags:
