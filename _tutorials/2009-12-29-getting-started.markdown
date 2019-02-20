@@ -16,7 +16,7 @@ tags:
 <!-- include embed-and-share-buttons.html ? -->
 
 
-## Resources 
+<h3>Resources</h3>
 
 <p>Check out the Undergraduate Research Center for the Humanities, Arts and Social sciences <a href="http://www.ugeducation.ucla.edu/urhass/" target="blank">here</a>.<p>
 <p>Check out the Undergraduate Research Center for the Sciences <a href="http://www.ugresearchsci.ucla.edu/" target="blank">here</a>.</p>
