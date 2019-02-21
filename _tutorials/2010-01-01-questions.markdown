@@ -16,16 +16,17 @@ tags:
 - brainstorming
 ---
 
-<p class="intro">Questions drive research. The most rewarding  research projects start with questions you care about and want to explore.</p>
+<p class="flow-text">Questions drive research. The most rewarding  research projects start with questions you care about and want to explore.</p>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/jj-F6YVtsxI?list=PLV8eqWoGXke5D5bmwscUhow1RJKWZmMRZ" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jj-F6YVtsxI?list=PLV8eqWoGXke5D5bmwscUhow1RJKWZmMRZ" frameborder="0" allowfullscreen></iframe></div>
 <!-- include embed-and-share-buttons.html ? -->
 
-### Give it a try:
+<h3>Give it a try:</h3>
 
 <p class="flow-text">Before you search, start by brainstorming a list of questions. Write down all the questions you hope to be able to answer in your project as well as all the questions you are curious about. This work will pay off when you use these questions to generate great searches later!</p>
 
-### Tips and Examples
+<h3>Tips and Examples</h3>
 
 <ul class="collapsible" data-collapsible="expandable">
     <li>
