@@ -5,7 +5,8 @@ authors:
     - Shannon
     - Taylor
 contributors:
-    - UCLA Undergraduate Research Centers
+    - UCLA Undergraduate Research Center: Humanities, Arts, and Social Sciences
+    - UCLA Undergraduate Research Center: Sciences
 thumbnail: 
 description: "Looking to get involved with research at UCLA? In this workshop, you'll meet five UCLA Undergraduate students as they explain their unique research journeys. Anyone can do research, and this workshop connects you with resources and opportunities to help you get started today!"
 category: Cornerstone Research Workshops
