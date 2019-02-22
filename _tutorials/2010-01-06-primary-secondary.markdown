@@ -18,6 +18,7 @@ contributors:
     - Renee Romero
     - Matthew Vest
 description: How to tell the difference between primary and secondary sources.
+thumbnail: /assets/tutorials/thumbnails/WheelOfSourcesThumbnail.png
 category: Finding and Citing Sources
 tags:
 - primary
