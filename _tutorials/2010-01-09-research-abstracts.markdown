@@ -1,6 +1,13 @@
 ---
 title:  "Research Abstracts"
 date:   2010-01-09
+authors: 
+    - Mary
+contributors:
+    - Taylor Harper
+    - Caitlin Meyer
+    - Shannon Roux
+    - Doug Worsham
 description: A research abstract is a snapshot of your research project that concisely presents your research and its significance.
 category: Sharing Your Research 
 tags:

@@ -1,6 +1,12 @@
 ---
 title:  "Deconstructing the Elevator Speech"
 date:   2010-01-08
+authors: 
+    - Mary
+contributors: 
+    - Taylor Harper
+    - Caitlin Meyer
+    - Doug Worsham
 description: An elevator speech is a great way to introduce yourself and your research to a wide range of audiences.  
 category: Sharing Your Research
 handout: /assets/handouts/elevator-speech.pdf

@@ -1,6 +1,37 @@
 ---
 title:  "Get Started with Zotero"
 date:   2010-01-07
+authors: 
+    - Caitlin
+    - Shannon
+    - Taylor
+    - Mary
+    - Shushanik
+contributors: 
+    - Whitney Arnold
+    - Allison Benedetti 
+    - Zoe Borovsky
+    - Joanna Chen Cham
+    - Elizabeth Cheney
+    - Robert Freel
+    - Julia Glassman
+    - Janet Goins
+    - Robert Gore
+    - Leigh Harris
+    - Juan Jaime
+    - Diana L. King
+    - Kelly Kistner
+    - Simon Lee
+    - Nina Mamikunian
+    - Scott Martin
+    - Bethany Meyers
+    - Annie Pho
+    - Miriam Posner
+    - Alicia Reiley
+    - Renee Romero
+    - Annelie Rugg
+    - Erin Sanders
+    - Doug Worsham
 description: Learn how to use Zotero, a free and easy citation tool. 
 handout: 
 category: Finding and Citing Sources

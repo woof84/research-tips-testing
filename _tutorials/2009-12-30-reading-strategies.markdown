@@ -1,6 +1,11 @@
 ---
 title:  "Reading Strategies"
 date:   2018-04-07 21:15:05 +0000
+authors: 
+    - The WI+RE Team
+contributors: 
+    - Doug Worsham
+    - UCLA Powell Library
 description: 
 handout:
 handout-thumbnail:
@@ -120,23 +125,19 @@ category: Getting Started
 <!-- Read for What You Need -->
 
 <!-- Prioritize New Vocabulary -->
-<div class="card blue grey lighten-5">
-    <div class="card-content">
-        <div class="row">
-            <div class="col s12 m12 l6 push-l6">
-                <!--add video embed code here--><img src="{{site.baseurl}}/assets/img/coming_soon.png" alt="Video Coming Soon!" class="responsive-img">
+<div class="card">
+    <div class="card-body">
+                <h3 class="card-title">Prioritize New Vocabulary</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/LNFOxqgGwMI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
-            <div class="col s12 m12 l6 pull-l6 grey lighten-5">
-                <h4>Prioritize New Vocabulary</h4>
-                <p>Dealing with unfamiliar words appropriately will aid your comprehension of the text and boost your vocabulary.</p>
+                <p class="card-text">Dealing with unfamiliar words appropriately will aid your comprehension of the text and boost your vocabulary.</p>
                  <ul class="browser-default activator"><li>Differentiate between words to look up right now, words to look up later, and words that are not crucial to understanding the course material.</li>
                 <li>If you cannot move forward in the text without understanding the meaning of a certain word, look it up now. </li>
                  <li>If a word is frequently repeated within a text, but you can still understand the text from context clues, it’s probably worth looking up later. Circle it and come back later.</li>
                  <li>Words that are only used once and don’t crucially impact your understanding of the text don’t need to be addressed right away. Don't let them distract you from the broader meaning of the text.</li>
                      <li>Develop a system for making your vocabulary easily accessible, like a circle that means "look up later."</li>
                  </ul>
-            </div>
-        </div>
     </div>
 </div>
 <!-- Prioritize New Vocabulary -->

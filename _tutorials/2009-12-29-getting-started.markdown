@@ -1,6 +1,27 @@
 ---
 title:  "Getting Started with Research at UCLA"
 date:   2010-01-10
+authors: 
+    - Taylor
+    - Shannon
+contributors:
+    - Tony Aptonte
+    - Whitney Arnold
+    - Joanna Chen Cham
+    - Elizabeth Cheney 
+    - Julia Glassman 
+    - Janet Goins
+    - Leigh Harris
+    - Courtney Hoffner
+    - Kelly Kistner
+    - Simon Lee
+    - Amy Liu 
+    - Caitlin Meyer
+    - Nisha Moody
+    - Renee Romero 
+    - Annelie Rugg
+    - Shushanik Stepanyan 
+    - Mary Tran 
 description: Getting Started with research at UCLA! 
 category: Getting Started
 tags:
@@ -15,8 +36,9 @@ tags:
 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2fIpRwxH30U" frameborder="0" allowfullscreen></iframe></div>
 <!-- include embed-and-share-buttons.html ? -->
 
+<br>
 
-## Resources 
+<h3>Resources</h3>
 
 <p>Check out the Undergraduate Research Center for the Humanities, Arts and Social sciences <a href="http://www.ugeducation.ucla.edu/urhass/" target="blank">here</a>.<p>
 <p>Check out the Undergraduate Research Center for the Sciences <a href="http://www.ugresearchsci.ucla.edu/" target="blank">here</a>.</p>

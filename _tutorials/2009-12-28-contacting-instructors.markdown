@@ -1,6 +1,29 @@
 ---
 title:  "Contacting Instructors"
 date:   2009-12-28
+authors: 
+    - Shannon
+    - Kian
+    - Taylor
+contributors:
+    - Whitney Arnold 
+    - Allison R. Benedetti
+    - Jeannie Chen
+    - Juan Diaz 
+    - Thomas Garbelotti
+    - Janet Goins
+    - Beth Goodhue
+    - Leigh Harris
+    - Simon Lee
+    - Liz Galvin Lew
+    - Kate McAllister
+    - Diane Mizrachi
+    - Tara Prescott 
+    - Renee Romero 
+    - Shanna Shaked
+    - Dana Cairns Watson
+    - Amber West
+    - Doug Worsham
 description: Etiquette for contacting instructors over email and in person!
 handout: /assets/handouts/contacting-faculty-combined.pdf
 handout-thumbail: /assets/handouts/thumbnails/contacting-instructors-combined-tn.png
