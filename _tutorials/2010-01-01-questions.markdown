@@ -7,6 +7,7 @@ authors:
 contributors: 
     - UCLA Powell Library
 description: Before you search, start by brainstorming a list of questions.
+thumbnail: /assets/tutorials/thumbnails/StartWithYourQuestionsThumbnail.jpg
 handout: /assets/handouts/questions.pdf
 handout-thumbail: /assets/handouts/thumbnails/questions-tn.png
 category: Getting Started
