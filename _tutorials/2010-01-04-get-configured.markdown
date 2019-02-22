@@ -4,6 +4,7 @@ date:   2010-01-04
 authors: 
     - Scott Martin
 description: Configure your computer to access the library's many resources.
+thumbnail: /assets/tutorials/thumbnails/GetConfiguredThumbnail.jpg
 handout: /assets/handouts/vpn.pdf
 handout-thumbail: /assets/handouts/thumbnails/vpn-tn.png
 category: Getting Started
